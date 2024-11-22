@@ -1,0 +1,27 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 5px 20px;
+  box-shadow: 0px 1px 5px;
+}
+.header-container img {
+  height: 60px;
+}
+.list-container {
+  display: flex;
+  gap: 20px;
+}
+.list-container li {
+  list-style-type: none;
+}
+.list-container a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  transition: all 0.8s;
+}
+.list-container a:hover {
+  transform: scale(1.2);
+}
