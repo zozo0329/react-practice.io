@@ -1,9 +1,16 @@
 import "./Card.css";
 import Header from "../Components/Header";
+import Login from "../Components/Login";
 const Card = () => {
   return (
-    <div>
+    <div className="content-container">
       <Header />
+      <div className="login-section">
+        <div className="for-user">
+          <Login />
+        </div>
+        <div className="image"></div>
+      </div>
     </div>
   );
 };
