@@ -1,6 +1,7 @@
 import "./Card.css";
 import Header from "../Components/Header";
 import Login from "../Components/Login";
+import Image from "../Components/Image";
 const Card = () => {
   return (
     <div className="content-container">
@@ -9,7 +10,9 @@ const Card = () => {
         <div className="for-user">
           <Login />
         </div>
-        <div className="image"></div>
+        <div className="image">
+          <Image />
+        </div>
       </div>
     </div>
   );

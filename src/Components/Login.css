@@ -1,6 +1,5 @@
 .login-container {
-  background-color: rgb(36, 36, 36);
-  margin-top: 50px;
+  background-color: #242424;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -27,12 +26,13 @@
 form input {
   padding: 15px;
   width: 250px;
-  border-radius: 15px;
   font-weight: bold;
   font-family: sans-serif;
-  color: black;
+  color: white;
   font-size: 16px;
   border: none;
+  background-color: #242424;
+  border-bottom: 2px solid white;
 }
 form button {
   padding: 12px;
@@ -48,4 +48,21 @@ form button {
 }
 form button:hover {
   background-color: #b8b8b8;
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: all 0.24s;
+}
+.button-section a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }

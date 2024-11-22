@@ -1,0 +1,10 @@
+.login-section {
+  display: inline-flex;
+}
+.for-user {
+  width: 100%;
+}
+.image {
+  width: 100%;
+  background-color: #242424;
+}

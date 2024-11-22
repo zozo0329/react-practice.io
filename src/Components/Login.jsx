@@ -18,7 +18,10 @@ const Login = () => {
           required
           placeholder="Password"
         />
-        <button type="submit">Login</button>
+        <div className="button-section">
+          <button type="submit">Login</button>
+          <a href="/#">Forgon Password?</a>
+        </div>
       </form>
     </div>
   );

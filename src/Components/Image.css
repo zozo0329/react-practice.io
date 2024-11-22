@@ -1,0 +1,7 @@
+.image-container {
+  padding: 20px;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
